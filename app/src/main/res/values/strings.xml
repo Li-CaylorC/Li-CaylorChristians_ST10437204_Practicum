@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Weather App</string>
+    <string name="licaylorChristians">Li-Caylor Christians</string>
+    <string name="studentNumber">ST10437204</string>
+    <string name="nextButton">NEXT</string>
+    <string name="exitButton">EXIT APP</string>
+    <string name="viewSummary">View Summary</string>
+    <string name="clear">Clear</string>
+    <string name="addData">Add Data</string>
+    <string name="insertDay">Insert Day</string>
+    <string name="minTemp">Min Temp</string>
+    <string name="weatherCondition">Weather Condition</string>
+</resources>
