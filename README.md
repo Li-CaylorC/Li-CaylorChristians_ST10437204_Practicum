@@ -12,6 +12,35 @@ purpose of the app: Users of the app can monitor and manage their daily weather 
 
 
 pesudocode:
+ start
+     Declarations
+    num Min 
+    num Max
+    string strDay 
+    string strWeatherCondition 
+    int attempts = 0
+
+    // Inserting a day 
+    output "Please enter a day of the week"
+    input "strDay"
+    
+    while (attempts < 4)  // Changed 0 to 4 as it seems to be the intended number of attempts
+        input "option"  // Assuming there's an option for the user to select
+        
+        if option == 1 then
+            output "Input data is saved"
+        else if option == 2 then 
+            output "Please fill all fields correctly"
+        else if option == 3 then
+            output "Clear up your data entered"
+        else if option == 4 then
+            output "Exit the app"
+            stop
+        end if
+        
+        attempts = attempts + 1
+    end while
+stop
 
 
 
